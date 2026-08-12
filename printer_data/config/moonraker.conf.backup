@@ -134,12 +134,3 @@ origin: https://github.com/andrewmcgr/klipper_tmc_autotune
 path: /home/biqu/klipper_tmc_autotune
 channel: dev
 type: git_repo
-[update_manager crowsnest]
-type: git_repo
-path: ~/crowsnest
-origin: https://github.com/mainsail-crew/crowsnest.git
-primary_branch: v5
-managed_services: crowsnest
-system_dependencies: system-dependencies.json
-virtualenv: ~/crowsnest-env
-requirements: requirements.txt
